@@ -19,6 +19,8 @@ app.use('/api/oferta',ofertaroutes);
 
 const port = process.env.port || 3000;
 
-app.listen(port, () => console.log(`Server started on port ${port}`));
+app.listen(port, function(){
+    console.log("Servidor escuchando en el puerto", port)
+});
 
 
