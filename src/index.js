@@ -17,10 +17,10 @@ app.use('/api/salas',salasroutes);
 app.use('/api/oferta',ofertaroutes);
 
 
-const port = process.env.port || 3000;
+const PORT = process.env.PORT || 3000;
 
-app.listen(port, function(){
-    console.log("Servidor escuchando en el puerto", port)
+app.listen(PORT, function(){
+    console.log("Servidor escuchando en el puerto", PORT)
 });
 
 
