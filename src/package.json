@@ -1,0 +1,45 @@
+{
+  "name": "desarrolloplataformas",
+  "version": "1.0.0",
+  "description": "Proyecto Plataformas Oferta Académica",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "\"echo \\\"hola\\\" && exit 1\"",
+    "dev": "nodemon index.js",
+    "start": "concurrently \"npm run dev\" \"cd ../../front && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skrlet13/DesarrolloPlataformas.git"
+  },
+  "author": "Grupo 5 2-2021 UCN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skrlet13/DesarrolloPlataformas/issues"
+  },
+  "homepage": "https://github.com/skrlet13/DesarrolloPlataformas#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-load": "^1.1.16",
+    "jason": "^2.0.0",
+    "json": "^11.0.0",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.0",
+    "pg": "^8.7.1",
+    "pg-promise": "^10.11.0",
+    "react-data-export": "^0.6.0",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "nodemon": "^2.0.14"
+  }
+}
