@@ -17,7 +17,7 @@ app.use('/api/salas',salasroutes);
 app.use('/api/oferta',ofertaroutes);
 
 
-const port = 3001;
+const port = process.env.port || 3000;
 
 app.listen(port, () => console.log(`Server started on port ${port}`));
 
